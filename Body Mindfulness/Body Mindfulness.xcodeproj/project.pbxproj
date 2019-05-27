@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1859BBC229119E60049B5C2 /* WorkoutNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1859BBB229119E60049B5C2 /* WorkoutNavigationController.swift */; };
+		F1859BD0229135EA0049B5C2 /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1859BCF229135EA0049B5C2 /* WorkoutViewController.swift */; };
+		F1859BD2229136C50049B5C2 /* WorkoutDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1859BD1229136C50049B5C2 /* WorkoutDetailsViewController.swift */; };
+		F1859BD42291371D0049B5C2 /* WorkoutStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1859BD32291371D0049B5C2 /* WorkoutStartViewController.swift */; };
+		F1859BD6229137BE0049B5C2 /* WorkoutRestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1859BD5229137BE0049B5C2 /* WorkoutRestViewController.swift */; };
+		F1859BDA229138620049B5C2 /* WorkoutPausedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1859BD9229138620049B5C2 /* WorkoutPausedViewController.swift */; };
+		F1859BDC229138970049B5C2 /* WorkoutStoppedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1859BDB229138970049B5C2 /* WorkoutStoppedViewController.swift */; };
+		F18AFB8D228FC1F200F390DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18AFB8C228FC1F200F390DF /* AppDelegate.swift */; };
+		F18AFB8F228FC1F200F390DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18AFB8E228FC1F200F390DF /* ViewController.swift */; };
+		F18AFB92228FC1F200F390DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F18AFB90228FC1F200F390DF /* Main.storyboard */; };
+		F18AFB95228FC1F200F390DF /* Body_Mindfulness.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F18AFB93228FC1F200F390DF /* Body_Mindfulness.xcdatamodeld */; };
+		F18AFB97228FC1F400F390DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F18AFB96228FC1F400F390DF /* Assets.xcassets */; };
+		F18AFB9A228FC1F400F390DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F18AFB98228FC1F400F390DF /* LaunchScreen.storyboard */; };
+		F18AFBA5228FC1F400F390DF /* Body_MindfulnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18AFBA4228FC1F400F390DF /* Body_MindfulnessTests.swift */; };
+		F18AFBB0228FC1F400F390DF /* Body_MindfulnessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18AFBAF228FC1F400F390DF /* Body_MindfulnessUITests.swift */; };
+		F18AFBBE228FCF2400F390DF /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18AFBBD228FCF2400F390DF /* ProfileViewController.swift */; };
+		F18AFBC0228FD0B300F390DF /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18AFBBF228FD0B300F390DF /* MainTabBarController.swift */; };
+		F18AFBC2228FD0C400F390DF /* ProfileNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18AFBC1228FD0C400F390DF /* ProfileNavigationController.swift */; };
+		F1E5407A2293DEED009D4EEA /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E540792293DEED009D4EEA /* RegisterViewController.swift */; };
+		F1E5407C2293DF21009D4EEA /* RemoveAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E5407B2293DF21009D4EEA /* RemoveAccountViewController.swift */; };
+		F1E5407E2293E9C5009D4EEA /* WorkoutSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E5407D2293E9C5009D4EEA /* WorkoutSuccessViewController.swift */; };
+		F1E5408222940832009D4EEA /* WorkoutRestPausedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E5408122940832009D4EEA /* WorkoutRestPausedViewController.swift */; };
+		F1E5408422945116009D4EEA /* CalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E5408322945116009D4EEA /* CalculateViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F18AFBA1228FC1F400F390DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F18AFB81228FC1F200F390DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F18AFB88228FC1F200F390DF;
+			remoteInfo = "Body Mindfulness";
+		};
+		F18AFBAC228FC1F400F390DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F18AFB81228FC1F200F390DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F18AFB88228FC1F200F390DF;
+			remoteInfo = "Body Mindfulness";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1859BBB229119E60049B5C2 /* WorkoutNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutNavigationController.swift; sourceTree = "<group>"; };
+		F1859BCF229135EA0049B5C2 /* WorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
+		F1859BD1229136C50049B5C2 /* WorkoutDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailsViewController.swift; sourceTree = "<group>"; };
+		F1859BD32291371D0049B5C2 /* WorkoutStartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutStartViewController.swift; sourceTree = "<group>"; };
+		F1859BD5229137BE0049B5C2 /* WorkoutRestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutRestViewController.swift; sourceTree = "<group>"; };
+		F1859BD9229138620049B5C2 /* WorkoutPausedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutPausedViewController.swift; sourceTree = "<group>"; };
+		F1859BDB229138970049B5C2 /* WorkoutStoppedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutStoppedViewController.swift; sourceTree = "<group>"; };
+		F18AFB89228FC1F200F390DF /* Body Mindfulness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Body Mindfulness.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18AFB8C228FC1F200F390DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F18AFB8E228FC1F200F390DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F18AFB91228FC1F200F390DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F18AFB94228FC1F200F390DF /* Body_Mindfulness.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Body_Mindfulness.xcdatamodel; sourceTree = "<group>"; };
+		F18AFB96228FC1F400F390DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F18AFB99228FC1F400F390DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F18AFB9B228FC1F400F390DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F18AFBA0228FC1F400F390DF /* Body MindfulnessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Body MindfulnessTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18AFBA4228FC1F400F390DF /* Body_MindfulnessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Body_MindfulnessTests.swift; sourceTree = "<group>"; };
+		F18AFBA6228FC1F400F390DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F18AFBAB228FC1F400F390DF /* Body MindfulnessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Body MindfulnessUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18AFBAF228FC1F400F390DF /* Body_MindfulnessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Body_MindfulnessUITests.swift; sourceTree = "<group>"; };
+		F18AFBB1228FC1F400F390DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F18AFBBD228FCF2400F390DF /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		F18AFBBF228FD0B300F390DF /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		F18AFBC1228FD0C400F390DF /* ProfileNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileNavigationController.swift; sourceTree = "<group>"; };
+		F1E540792293DEED009D4EEA /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		F1E5407B2293DF21009D4EEA /* RemoveAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveAccountViewController.swift; sourceTree = "<group>"; };
+		F1E5407D2293E9C5009D4EEA /* WorkoutSuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSuccessViewController.swift; sourceTree = "<group>"; };
+		F1E5408122940832009D4EEA /* WorkoutRestPausedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutRestPausedViewController.swift; sourceTree = "<group>"; };
+		F1E5408322945116009D4EEA /* CalculateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F18AFB86228FC1F200F390DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18AFB9D228FC1F400F390DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18AFBA8228FC1F400F390DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F18AFB80228FC1F200F390DF = {
+			isa = PBXGroup;
+			children = (
+				F18AFB8B228FC1F200F390DF /* Body Mindfulness */,
+				F18AFBA3228FC1F400F390DF /* Body MindfulnessTests */,
+				F18AFBAE228FC1F400F390DF /* Body MindfulnessUITests */,
+				F18AFB8A228FC1F200F390DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F18AFB8A228FC1F200F390DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F18AFB89228FC1F200F390DF /* Body Mindfulness.app */,
+				F18AFBA0228FC1F400F390DF /* Body MindfulnessTests.xctest */,
+				F18AFBAB228FC1F400F390DF /* Body MindfulnessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F18AFB8B228FC1F200F390DF /* Body Mindfulness */ = {
+			isa = PBXGroup;
+			children = (
+				F18AFB8C228FC1F200F390DF /* AppDelegate.swift */,
+				F18AFB8E228FC1F200F390DF /* ViewController.swift */,
+				F18AFB90228FC1F200F390DF /* Main.storyboard */,
+				F18AFB96228FC1F400F390DF /* Assets.xcassets */,
+				F18AFB98228FC1F400F390DF /* LaunchScreen.storyboard */,
+				F18AFB9B228FC1F400F390DF /* Info.plist */,
+				F18AFB93228FC1F200F390DF /* Body_Mindfulness.xcdatamodeld */,
+				F18AFBBD228FCF2400F390DF /* ProfileViewController.swift */,
+				F18AFBBF228FD0B300F390DF /* MainTabBarController.swift */,
+				F18AFBC1228FD0C400F390DF /* ProfileNavigationController.swift */,
+				F1859BBB229119E60049B5C2 /* WorkoutNavigationController.swift */,
+				F1859BCF229135EA0049B5C2 /* WorkoutViewController.swift */,
+				F1859BD1229136C50049B5C2 /* WorkoutDetailsViewController.swift */,
+				F1859BD32291371D0049B5C2 /* WorkoutStartViewController.swift */,
+				F1859BD5229137BE0049B5C2 /* WorkoutRestViewController.swift */,
+				F1859BD9229138620049B5C2 /* WorkoutPausedViewController.swift */,
+				F1859BDB229138970049B5C2 /* WorkoutStoppedViewController.swift */,
+				F1E540792293DEED009D4EEA /* RegisterViewController.swift */,
+				F1E5407B2293DF21009D4EEA /* RemoveAccountViewController.swift */,
+				F1E5407D2293E9C5009D4EEA /* WorkoutSuccessViewController.swift */,
+				F1E5408122940832009D4EEA /* WorkoutRestPausedViewController.swift */,
+				F1E5408322945116009D4EEA /* CalculateViewController.swift */,
+			);
+			path = "Body Mindfulness";
+			sourceTree = "<group>";
+		};
+		F18AFBA3228FC1F400F390DF /* Body MindfulnessTests */ = {
+			isa = PBXGroup;
+			children = (
+				F18AFBA4228FC1F400F390DF /* Body_MindfulnessTests.swift */,
+				F18AFBA6228FC1F400F390DF /* Info.plist */,
+			);
+			path = "Body MindfulnessTests";
+			sourceTree = "<group>";
+		};
+		F18AFBAE228FC1F400F390DF /* Body MindfulnessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F18AFBAF228FC1F400F390DF /* Body_MindfulnessUITests.swift */,
+				F18AFBB1228FC1F400F390DF /* Info.plist */,
+			);
+			path = "Body MindfulnessUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F18AFB88228FC1F200F390DF /* Body Mindfulness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F18AFBB4228FC1F400F390DF /* Build configuration list for PBXNativeTarget "Body Mindfulness" */;
+			buildPhases = (
+				F18AFB85228FC1F200F390DF /* Sources */,
+				F18AFB86228FC1F200F390DF /* Frameworks */,
+				F18AFB87228FC1F200F390DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Body Mindfulness";
+			productName = "Body Mindfulness";
+			productReference = F18AFB89228FC1F200F390DF /* Body Mindfulness.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F18AFB9F228FC1F400F390DF /* Body MindfulnessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F18AFBB7228FC1F400F390DF /* Build configuration list for PBXNativeTarget "Body MindfulnessTests" */;
+			buildPhases = (
+				F18AFB9C228FC1F400F390DF /* Sources */,
+				F18AFB9D228FC1F400F390DF /* Frameworks */,
+				F18AFB9E228FC1F400F390DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F18AFBA2228FC1F400F390DF /* PBXTargetDependency */,
+			);
+			name = "Body MindfulnessTests";
+			productName = "Body MindfulnessTests";
+			productReference = F18AFBA0228FC1F400F390DF /* Body MindfulnessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F18AFBAA228FC1F400F390DF /* Body MindfulnessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F18AFBBA228FC1F400F390DF /* Build configuration list for PBXNativeTarget "Body MindfulnessUITests" */;
+			buildPhases = (
+				F18AFBA7228FC1F400F390DF /* Sources */,
+				F18AFBA8228FC1F400F390DF /* Frameworks */,
+				F18AFBA9228FC1F400F390DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F18AFBAD228FC1F400F390DF /* PBXTargetDependency */,
+			);
+			name = "Body MindfulnessUITests";
+			productName = "Body MindfulnessUITests";
+			productReference = F18AFBAB228FC1F400F390DF /* Body MindfulnessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F18AFB81228FC1F200F390DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Martin Christian";
+				TargetAttributes = {
+					F18AFB88228FC1F200F390DF = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					F18AFB9F228FC1F400F390DF = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F18AFB88228FC1F200F390DF;
+					};
+					F18AFBAA228FC1F400F390DF = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F18AFB88228FC1F200F390DF;
+					};
+				};
+			};
+			buildConfigurationList = F18AFB84228FC1F200F390DF /* Build configuration list for PBXProject "Body Mindfulness" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F18AFB80228FC1F200F390DF;
+			productRefGroup = F18AFB8A228FC1F200F390DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F18AFB88228FC1F200F390DF /* Body Mindfulness */,
+				F18AFB9F228FC1F400F390DF /* Body MindfulnessTests */,
+				F18AFBAA228FC1F400F390DF /* Body MindfulnessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F18AFB87228FC1F200F390DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18AFB9A228FC1F400F390DF /* LaunchScreen.storyboard in Resources */,
+				F18AFB97228FC1F400F390DF /* Assets.xcassets in Resources */,
+				F18AFB92228FC1F200F390DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18AFB9E228FC1F400F390DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18AFBA9228FC1F400F390DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F18AFB85228FC1F200F390DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1E5407E2293E9C5009D4EEA /* WorkoutSuccessViewController.swift in Sources */,
+				F18AFB8F228FC1F200F390DF /* ViewController.swift in Sources */,
+				F1859BD42291371D0049B5C2 /* WorkoutStartViewController.swift in Sources */,
+				F1E5408222940832009D4EEA /* WorkoutRestPausedViewController.swift in Sources */,
+				F1E5407C2293DF21009D4EEA /* RemoveAccountViewController.swift in Sources */,
+				F1859BD6229137BE0049B5C2 /* WorkoutRestViewController.swift in Sources */,
+				F18AFBC2228FD0C400F390DF /* ProfileNavigationController.swift in Sources */,
+				F1E5407A2293DEED009D4EEA /* RegisterViewController.swift in Sources */,
+				F18AFB8D228FC1F200F390DF /* AppDelegate.swift in Sources */,
+				F18AFBC0228FD0B300F390DF /* MainTabBarController.swift in Sources */,
+				F1859BD2229136C50049B5C2 /* WorkoutDetailsViewController.swift in Sources */,
+				F1E5408422945116009D4EEA /* CalculateViewController.swift in Sources */,
+				F1859BBC229119E60049B5C2 /* WorkoutNavigationController.swift in Sources */,
+				F1859BDC229138970049B5C2 /* WorkoutStoppedViewController.swift in Sources */,
+				F18AFBBE228FCF2400F390DF /* ProfileViewController.swift in Sources */,
+				F1859BDA229138620049B5C2 /* WorkoutPausedViewController.swift in Sources */,
+				F1859BD0229135EA0049B5C2 /* WorkoutViewController.swift in Sources */,
+				F18AFB95228FC1F200F390DF /* Body_Mindfulness.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18AFB9C228FC1F400F390DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18AFBA5228FC1F400F390DF /* Body_MindfulnessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18AFBA7228FC1F400F390DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18AFBB0228FC1F400F390DF /* Body_MindfulnessUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F18AFBA2228FC1F400F390DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F18AFB88228FC1F200F390DF /* Body Mindfulness */;
+			targetProxy = F18AFBA1228FC1F400F390DF /* PBXContainerItemProxy */;
+		};
+		F18AFBAD228FC1F400F390DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F18AFB88228FC1F200F390DF /* Body Mindfulness */;
+			targetProxy = F18AFBAC228FC1F400F390DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F18AFB90228FC1F200F390DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F18AFB91228FC1F200F390DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F18AFB98228FC1F400F390DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F18AFB99228FC1F400F390DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F18AFBB2228FC1F400F390DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F18AFBB3228FC1F400F390DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F18AFBB5228FC1F400F390DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Body Mindfulness/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yosephmartin.Body-Mindfulness";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F18AFBB6228FC1F400F390DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Body Mindfulness/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yosephmartin.Body-Mindfulness";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F18AFBB8228FC1F400F390DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Body MindfulnessTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yosephmartin.Body-MindfulnessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Body Mindfulness.app/Body Mindfulness";
+			};
+			name = Debug;
+		};
+		F18AFBB9228FC1F400F390DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Body MindfulnessTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yosephmartin.Body-MindfulnessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Body Mindfulness.app/Body Mindfulness";
+			};
+			name = Release;
+		};
+		F18AFBBB228FC1F400F390DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Body MindfulnessUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yosephmartin.Body-MindfulnessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Body Mindfulness";
+			};
+			name = Debug;
+		};
+		F18AFBBC228FC1F400F390DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Body MindfulnessUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yosephmartin.Body-MindfulnessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Body Mindfulness";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F18AFB84228FC1F200F390DF /* Build configuration list for PBXProject "Body Mindfulness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18AFBB2228FC1F400F390DF /* Debug */,
+				F18AFBB3228FC1F400F390DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F18AFBB4228FC1F400F390DF /* Build configuration list for PBXNativeTarget "Body Mindfulness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18AFBB5228FC1F400F390DF /* Debug */,
+				F18AFBB6228FC1F400F390DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F18AFBB7228FC1F400F390DF /* Build configuration list for PBXNativeTarget "Body MindfulnessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18AFBB8228FC1F400F390DF /* Debug */,
+				F18AFBB9228FC1F400F390DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F18AFBBA228FC1F400F390DF /* Build configuration list for PBXNativeTarget "Body MindfulnessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18AFBBB228FC1F400F390DF /* Debug */,
+				F18AFBBC228FC1F400F390DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F18AFB93228FC1F200F390DF /* Body_Mindfulness.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F18AFB94228FC1F200F390DF /* Body_Mindfulness.xcdatamodel */,
+			);
+			currentVersion = F18AFB94228FC1F200F390DF /* Body_Mindfulness.xcdatamodel */;
+			path = Body_Mindfulness.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F18AFB81228FC1F200F390DF /* Project object */;
+}
